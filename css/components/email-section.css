@@ -1,0 +1,21 @@
+.email-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email-wrapper{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    width: 300px;
+}
+
+.main-input{
+    background-color: pink;
+    /* border-left: none; */
+    border-radius: 10px ;
+}
