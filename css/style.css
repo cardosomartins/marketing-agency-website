@@ -13,10 +13,13 @@ body{
 
 .main-button{
     background-color: black;
+    font-size: 10px;
     color: white;
     border: 0px;
     padding: 0px;
     position: relative;
+    width: 80px;
+    height: 30px;
     padding-top: 7.5px;
     padding-bottom: 7.5px;
 }
@@ -28,7 +31,7 @@ body{
    border-radius: 50%;
    height: 30px;
    width: 30px;
-   left: 73%;
+   left: 80%;
    top: 0px;
    z-index: -1;  
 }
@@ -40,7 +43,7 @@ body{
     border-radius: 50%;
     height: 30px;
     width: 30px;
-    right: 73%;
+    right: 80%;
     top: 0px;
     z-index: -1;  
  }
@@ -48,4 +51,12 @@ body{
 .main-button:hover{
     opacity: 0.5;
     transform: scale(2.0);
+}
+
+a{
+    font-family: Poppins;
+}
+
+h1{
+    font-family: Syne;
 }
