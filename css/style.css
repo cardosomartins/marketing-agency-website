@@ -49,8 +49,8 @@ body{
  }
 
 .main-button:hover{
-    font-size: 16;
-    opacity: 0.5;
+    font-size: 20;
+    opacity: 0.8;
     transform: scale(2.0);
 }
 

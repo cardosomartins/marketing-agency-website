@@ -6,8 +6,27 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
+    align-items: baseline;
 }
 
 .navigation-bar a{
-    font-size: 16;
+    font-size: 20;
+}
+
+.main-anchors.logo{
+    font-weight: 900;
+
+}
+
+.main-anchors.logo::before{
+    content: url(../../img/black-elipse.png);
+    position: relative;
+    top: 8px
+}
+
+.main-anchors.logo::after{
+    content: url(../../img/white-elipse.png);
+    position: relative;
+    right: 67px;
+    top: 5px
 }
