@@ -6,6 +6,13 @@
     flex-direction: column;
 }
 
+.email-container h1{
+    font-size: 90px;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+}
+
 .email-wrapper{
     display: flex;
     flex-wrap: nowrap;
@@ -27,8 +34,4 @@
     position: relative;
     right: -10%;
     z-index: 1;
-}
-
-.email-container h1{    
-    font-size: 90px
 }
